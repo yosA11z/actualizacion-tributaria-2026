@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualización Tributaria 2026 | Seminario Profesional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Actualización<span>Tributaria</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#temas">Temas</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#conferencistas">Conferencistas</a></li>
+                <li><a href="#cronograma">Cronograma</a></li>
+                <li><a href="#inscripcion" class="nav-cta">Inscribirse</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Actualización <span>Tributaria</span> 2026</h1>
+                <p>Domina los cambios fiscales más importantes para Colombia. Tres días intensivos con los mejores
+                    expertos.</p>
+                <div class="hero-info">
+                    <div class="hero-info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>21-23 de Abril, 2026</span>
+                    </div>
+                    <div class="hero-info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>6:30 PM - 8:30 PM</span>
+                    </div>
+                    <div class="hero-info-item">
+                        <i class="fas fa-video"></i>
+                        <span>Modalidad Virtual</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#inscripcion" class="btn btn-primary">
+                        <i class="fas fa-user-plus"></i>
+                        Inscribirse Ahora
+                    </a>
+                    <a href="#temas" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Ver Temario
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <h3><i class="fas fa-hourglass-half"></i> Faltan</h3>
+                    <div class="countdown" id="countdown">
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="days">00</span>
+                            <span class="countdown-label">Días</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="hours">00</span>
+                            <span class="countdown-label">Horas</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="minutes">00</span>
+                            <span class="countdown-label">Minutos</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="countdown-number" id="seconds">00</span>
+                            <span class="countdown-label">Segundos</span>
+                        </div>
+                    </div>
+                    <div class="hero-price">
+                        <span>Inversión</span>
+                        <strong>$120.000 COP</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Topics Section -->
+    <section class="topics" id="temas">
+        <div class="section-header animate-on-scroll">
+            <span class="section-tag">Temario del Seminario</span>
+            <h2>Temas que Abordaremos</h2>
+            <p>Contenido actualizado y especializado para mantenerte al día con las normativas tributarias colombianas.
+            </p>
+        </div>
+        <div class="topics-grid">
+            <div class="topic-card animate-on-scroll">
+                <div class="topic-icon">
+                    <i class="fas fa-file-invoice"></i>
+                </div>
+                <h3>Documentos Electrónicos</h3>
+                <p>Facturación electrónica y sistemas de la DIAN</p>
+                <ul class="topic-list">
+                    <li><i class="fas fa-check-circle"></i> Facturación electrónica 2.0</li>
+                    <li><i class="fas fa-check-circle"></i> Sistema DIAN - Módulos</li>
+                    <li><i class="fas fa-check-circle"></i> Certificados digitales</li>
+                    <li><i class="fas fa-check-circle"></i> Validación de documentos</li>
+                </ul>
+            </div>
+            <div class="topic-card animate-on-scroll">
+                <div class="topic-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h3>Información Exógena</h3>
+                <p>Reportes, formatos y plazos de presentación</p>
+                <ul class="topic-list">
+                    <li><i class="fas fa-check-circle"></i> Reportes mensuales y anuales</li>
+                    <li><i class="fas fa-check-circle"></i> Formatos DIAN actualizados</li>
+                    <li><i class="fas fa-check-circle"></i> Plazos y sanciones</li>
+                    <li><i class="fas fa-check-circle"></i> Casos prácticos</li>
+                </ul>
+            </div>
+            <div class="topic-card animate-on-scroll">
+                <div class="topic-icon">
+                    <i class="fas fa-gavel"></i>
+                </div>
+                <h3>Régimen Sancionatorio</h3>
+                <p>Sanciones, correcciones y procedimientos</p>
+                <ul class="topic-list">
+                    <li><i class="fas fa-check-circle"></i> Tipos de sanciones</li>
+                    <li><i class="fas fa-check-circle"></i> Procedimientos de corrección</li>
+                    <li><i class="fas fa-check-circle"></i> Recargos y actualización</li>
+                    <li><i class="fas fa-check-circle"></i> Defensas tributarias</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="beneficios">
+        <div class="section-header animate-on-scroll">
+            <span class="section-tag">¿Por qué Asistir?</span>
+            <h2>Beneficios de Participar</h2>
+            <p>Una inversión en conocimiento que te dará retorno inmediato en tu práctica profesional.</p>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-card animate-on-scroll">
+                <div class="benefit-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h4>Certificado de Asistencia</h4>
+                <p>Documento oficial con validez profesional respaldado por los conferencistas.</p>
+            </div>
+            <div class="benefit-card animate-on-scroll">
+                <div class="benefit-icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h4>Material Didáctico</h4>
+                <p>Guía completa con apuntes, casos prácticos y referencias legales actualizadas.</p>
+            </div>
+            <div class="benefit-card animate-on-scroll">
+                <div class="benefit-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h4>Red de Contactos</h4>
+                <p>Conecta con profesionales del sector tributario y amplía tu red profesional.</p>
+            </div>
+            <div class="benefit-card animate-on-scroll">
+                <div class="benefit-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h4>Sesión de Preguntas</h4>
+                <p>Tiempo dedicado para resolver tus dudas específicas con los expertos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section class="speakers" id="conferencistas">
+        <div class="section-header animate-on-scroll">
+            <span class="section-tag">Nuestros Expertos</span>
+            <h2>Conferencistas</h2>
+            <p>Profesionales con amplia experiencia en el sector tributario colombiano.</p>
+        </div>
+        <div class="speakers-grid">
+            <div class="speaker-card animate-left">
+                <div class="speaker-image">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="speaker-info">
+                    <h3>Juan Diego Solórzano Horta</h3>
+                    <p class="title">Contador Público</p>
+                    <p>Especialista y Magíster en Gerencia Tributaria con amplia experiencia en asesoría tributaria y
+                        cumplimiento normativo.</p>
+                    <div class="speaker-credentials">
+                        <span class="credential">Contador Público</span>
+                        <span class="credential">Especialista</span>
+                        <span class="credential">Magíster</span>
+                    </div>
+                </div>
+            </div>
+            <div class="speaker-card animate-right">
+                <div class="speaker-image">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="speaker-info">
+                    <h3>Arles Ibarra Cadavid</h3>
+                    <p class="title">Contador Público</p>
+                    <p>Especialista en Gerencia Tributaria y Docente Universitario, conocido por su capacidad de
+                        comunicación y claridad en temas complejos.</p>
+                    <div class="speaker-credentials">
+                        <span class="credential">Contador Público</span>
+                        <span class="credential">Especialista</span>
+                        <span class="credential">Docente</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule" id="cronograma">
+        <div class="section-header animate-on-scroll">
+            <span class="section-tag">Cronograma</span>
+            <h2>Horarios y Fechas</h2>
+            <p>Tres días intensivos de aprendizaje tributario.</p>
+        </div>
+        <div class="schedule-container">
+            <div class="schedule-day animate-on-scroll">
+                <div class="schedule-day-header">
+                    <h3><i class="fas fa-calendar-day"></i> Día 1 - Martes 21 de Abril</h3>
+                    <span>6:30 PM - 8:30 PM</span>
+                </div>
+                <div class="schedule-content">
+                    <div class="schedule-item">
+                        <span class="schedule-time">6:30 PM</span>
+                        <div class="schedule-topic">
+                            <h4>Apertura y Contexto Tributario 2026</h4>
+                            <p>Presentación del seminario y panorama general de cambios fiscales.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">7:00 PM</span>
+                        <div class="schedule-topic">
+                            <h4>Documentos Electrónicos - Parte 1</h4>
+                            <p>Facturación electrónica: normativas y procedimientos.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">7:45 PM</span>
+                        <div class="schedule-topic">
+                            <h4>Documentos Electrónicos - Parte 2</h4>
+                            <p>Sistema DIAN y certificados digitales en profundidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="schedule-day animate-on-scroll">
+                <div class="schedule-day-header">
+                    <h3><i class="fas fa-calendar-day"></i> Día 2 - Miércoles 22 de Abril</h3>
+                    <span>6:30 PM - 8:30 PM</span>
+                </div>
+                <div class="schedule-content">
+                    <div class="schedule-item">
+                        <span class="schedule-time">6:30 PM</span>
+                        <div class="schedule-topic">
+                            <h4>Información Exógena - Parte 1</h4>
+                            <p>Reportes mensuales y formatos de declaración.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">7:15 PM</span>
+                        <div class="schedule-topic">
+                            <h4>Información Exógena - Parte 2</h4>
+                            <p>Plazos, procedimientos y casos prácticos.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">8:00 PM</span>
+                        <div class="schedule-topic">
+                            <h4>Sesión de Preguntas y Respuestas</h4>
+                            <p>Interacción directa con los conferencistas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="schedule-day animate-on-scroll">
+                <div class="schedule-day-header">
+                    <h3><i class="fas fa-calendar-day"></i> Día 3 - Jueves 23 de Abril</h3>
+                    <span>6:30 PM - 8:30 PM</span>
+                </div>
+                <div class="schedule-content">
+                    <div class="schedule-item">
+                        <span class="schedule-time">6:30 PM</span>
+                        <div class="schedule-topic">
+                            <h4>Régimen Sancionatorio - Parte 1</h4>
+                            <p>Tipos de sanciones y cuantías aplicables.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">7:15 PM</span>
+                        <div class="schedule-topic">
+                            <h4>Régimen Sancionatorio - Parte 2</h4>
+                            <p>Correcciones, recargos y procedimientos de defensa.</p>
+                        </div>
+                    </div>
+                    <div class="schedule-item">
+                        <span class="schedule-time">8:00 PM</span>
+                        <div class="schedule-topic">
+                            <h4>Cierre y Entrega de Certificados</h4>
+                            <p>Conclusiones, material adicional y certificados de asistencia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="inscripcion">
+        <div class="section-header animate-on-scroll">
+            <span class="section-tag">Inversión</span>
+            <h2>Precio del Seminario</h2>
+            <p>Una inversión en tu desarrollo profesional con alto retorno.</p>
+        </div>
+        <div class="pricing-card animate-on-scroll">
+            <span class="pricing-badge">Últimas Plazas</span>
+            <div class="pricing-amount">
+                <span class="currency">$</span>
+                <span class="amount">120.000</span>
+                <span class="period">COP</span>
+            </div>
+            <ul class="pricing-features">
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span>3 días de capacitación virtual en vivo</span>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span>Material didáctico completo y actualizado</span>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span>Certificado de asistencia oficial</span>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span>Grabaciones de las sesiones</span>
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i>
+                    <span>Soporte vía WhatsApp durante el evento</span>
+                </li>
+                <li>
+            </ul>
+            <a href="#inscripcion" class="btn btn-primary">
+                <i class="fas fa-user-plus"></i>
+                Reservar Mi Cupo
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="contact-container">
+            <div class="contact-info animate-left">
+                <h3>¿Tienes Dudas?</h3>
+                <p>Estamos aquí para ayudarte. Contáctanos para cualquier consulta sobre el seminario.</p>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-method-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-method-text">
+                            <h4>Correo Electrónico</h4>
+                            <p>asesorcontablejuansolorzano@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-method-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-method-text">
+                            <h4>Teléfono</h4>
+                            <p>+57 317 580 7141</p>
+                        </div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-method-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-method-text">
+                            <h4>Modalidad</h4>
+                            <p>100% Virtual - Desde cualquier lugar</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://wa.me/573175807141" target="_blank" class="whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i>
+                    Contactar por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Actualización<span>Tributaria</span></h3>
+                    <p>Capacitación tributaria de calidad para profesionales que buscan actualizarse constantemente.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#temas">Temas</a></li>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                        <li><a href="#conferencistas">Conferencistas</a></li>
+                        <li><a href="#cronograma">Cronograma</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Información</h4>
+                    <ul>
+                        <li><a href="#inscripcion">Inscripción</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="/legal/terminosycondiciones.html">Términos y Condiciones</a></li>
+                        <li><a href="/legal/politicadeprivacidad.html">Política de Privacidad</a></li>
+                        <li><a href="/legal/reembolsos.html">Política de Reembolso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Actualización Tributaria. Todos los derechos reservados.</p>
+                <div class="footer-bottom-links">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal">
+        <div class="modal">
+            <div class="modal-icon">
+                <i class="fas fa-check"></i>
+            </div>
+            <h3>¡Inscripción Exitosa!</h3>
+            <p>Gracias por inscribirte al seminario. Te contactaremos pronto para confirmar tu participación.</p>
+            <button class="modal-close" onclick="closeModal()">Entendido</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
